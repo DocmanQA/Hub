@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="UAT.Logon_with_different_users"/>
+      <class name="UAT.Activity_Summary"/>
+      <class name="UAT.View_Document_Waiting"/>
+      <class name="UAT.View_Document_On_Hold"/>
+      <class name="UAT.View_Active_End_Points"/>
+      <class name="UAT.View_Active_Document_Sources"/>
+      <class name="UAT.Edit_button_Access_Log"/>
+      <class name="UAT.Document_List"/>
+      <class name="UAT.Edit_button_Document_List"/>
+      <class name="UAT.Document_List_Filter"/>
+      <class name="UAT.End_Point"/>
+      <class name="UAT.Edit_End_Point"/>
+      <class name="UAT.Add_End_Point"/>  
+      <class name="UAT.Delete_End_Point"/>     
+      <class name="UAT.End_Point_Filter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
