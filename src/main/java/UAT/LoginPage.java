@@ -71,35 +71,41 @@ public class LoginPage {
 		
 		String DayofMonth;
 		switch (month){
+		case 0:
+			DayofMonth = "goodjeans";
+			break;
+		case 1:
+			DayofMonth = "smallcave";
+			break;
 		case 2:
-			DayofMonth = "sweetlamp";
+			DayofMonth = "largebell";
 			break;
 		case 3:
-			DayofMonth = "stickycake";
+			DayofMonth = "loudbird";
 			break;
 		case 4:
-			DayofMonth = "smoothbed";
+			DayofMonth = "dryball";
 			break;
 		case 5:
-			DayofMonth = "bitterpint";
+			DayofMonth = "roundboat";
 			break;
 		case 6:
-			DayofMonth = "crispydonkey";
+			DayofMonth = "thinchurch";
 			break;
 		case 7:
-			DayofMonth = "sharpbear";
+			DayofMonth = "badcloud";
 			break;
 		case 8:
-			DayofMonth = "smokeycat";
+			DayofMonth = "scaryduck";
 			break;
 		case 9:
-			DayofMonth = "shinyhammer";
+			DayofMonth = "spicymother";
 			break;
 		case 10:
-			DayofMonth = "darkglove";
+			DayofMonth = "tastyhaircut";
 			break;
 		case 11:
-			DayofMonth = "uglygoldfish";
+			DayofMonth = "oldfly";
 			break;
 		default: DayofMonth = "";
 		    break;
