@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="UAT.DeleteDocAndArchive">
+      <class name="UAT.DeleteConversion">
         <methods>
-          <include name="afterClass"/>
+          <include name="beforeTest"/>
           <include name="main"/>
-          <include name="beforeClass"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- UAT.DeleteDocAndArchive -->
+      </class> <!-- UAT.DeleteConversion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

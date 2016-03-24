@@ -19,7 +19,8 @@ public class LoginPage {
 	public LoginPage(WebDriver driver){
 		this.driver = driver;
 		//driver.get("http://hub08to2/EDTConsole/");
-		driver.get("http://TO_Hub_900/EDTWeb/");
+		//driver.get("http://TO_Hub_900/EDTWeb/");
+		driver.get("http://192.168.1.160/EDTWeb/");
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
 		loginusername = driver.findElement(By.name("txtUser"));
